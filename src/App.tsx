@@ -3,8 +3,8 @@ import { Parallax, ParallaxLayer, IParallax } from '@react-spring/parallax'
 import logo from './je_logo512.png';
 import './App.css';
 import background from './background.png';
-import backgroundtwo from './backgroundtwo.png';
-import gif from './gif.gif';
+import auto from './auto.png';
+import didact from './didact.png';
 
 
 function App() {
@@ -21,31 +21,28 @@ function App() {
             speed={1}
             factor={2}
             style={{
-              backgroundImage: `url(${background})`,
+              backgroundImage: `url(${auto})`,
               backgroundSize: 'contain',
             }}
           ></ParallaxLayer>
 
           <ParallaxLayer
-            offset={1}
+            offset={2}
             speed={1}
-            factor={2}
+            factor={4}
             style={{
-              backgroundImage: `url(${backgroundtwo})`,
+              backgroundImage: `url(${didact})`,
               backgroundSize: 'contain',
             }}
           ></ParallaxLayer>
 
           <ParallaxLayer
-            sticky={{ start: 0.9, end: 2.5 }}
-            style={{ 
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'right',
+            sticky={{start: 0, end: 3 }}
+            style={{
+              backgroundImage: `url(${background})`,
+              backgroundSize: 'auto auto'
             }}
-          >
-            <img src={gif} alt=''/>
-          </ParallaxLayer>
+          ></ParallaxLayer>
 
           <ParallaxLayer
             offset={0}
