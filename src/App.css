@@ -1,0 +1,19 @@
+body {
+  background-color: #8C271E;
+}
+
+.App {
+  background-color: #8C271E;
+  color: #F4F5F6;
+  text-align: left;
+}
+
+.HomeIcon {
+  color: #F4F5F6;
+}
+
+.intro {
+  padding: 10px;
+  font-size: xx-large;
+  font-style: italic;
+}
