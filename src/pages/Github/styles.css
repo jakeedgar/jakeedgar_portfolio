@@ -1,0 +1,23 @@
+a:link {
+  text-decoration: none;
+  color: #F4F5F6;
+  font-size:large;
+  padding: .5rem;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #F4F5F6;
+}
+
+
+a:hover {
+  text-decoration: none;
+  color: #F4F5F6;
+}
+
+
+a:active {
+  text-decoration: none;
+  color: #F4F5F6;
+}

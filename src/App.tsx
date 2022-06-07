@@ -50,9 +50,6 @@ function App() {
             )} />
           </Routes>
         </ThemeProvider>
-        <div className='intro'>
-          Sholem Aleichem I'm Jake.
-        </div>
       </div>
     </div>
   );
