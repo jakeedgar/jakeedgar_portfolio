@@ -35,6 +35,17 @@ const ParallaxPage = () => {
             >
             </ParallaxLayer>
             <ParallaxLayer
+              offset={.5}
+              speed={1}
+              factor={3}
+              style={{
+                backgroundImage: `url(${other_circ})`,
+                backgroundSize: 'contain',
+                opacity: .04,
+                margin: '3rem',
+              }}
+            ></ParallaxLayer>
+            <ParallaxLayer
               offset={0}
               speed={.35}
               factor={2}

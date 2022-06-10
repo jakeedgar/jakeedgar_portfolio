@@ -1,7 +1,6 @@
 h4.about {
   font-size:xx-large;
   padding: 2rem;
-  transform: skew(6deg, -1deg) scaleY(.66667);
   border: 3px solid #F4F5F6;
   box-shadow: 5px 10px;
 }

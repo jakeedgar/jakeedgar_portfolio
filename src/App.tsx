@@ -1,9 +1,10 @@
-import './App.css';
-import { Route, Routes } from 'react-router-dom';
+import './App.css'
+import { Route, Routes } from 'react-router-dom'
 import Homepage from './pages/Homepage'
 import Github from './pages/Github'
 import { createTheme, ThemeProvider } from '@mui/material'
-import About from './pages/About';
+import About from './pages/About'
+import Resume from './pages/Resume'
 
 
 const theme = createTheme({
@@ -47,6 +48,9 @@ function App() {
             )} />
             <Route path="/about" element={(
                 <About />
+            )} />
+            <Route path="/resume" element={(
+                <Resume />
             )} />
           </Routes>
         </ThemeProvider>
