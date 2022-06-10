@@ -9,19 +9,20 @@ import light_small_square from '../../shapes/light_small_squa.png'
 import light_square from '../../shapes/light_squa.png'
 import light_triangle from '../../shapes/light_tri.png'
 import sholem from '../../shapes/sholem_aleichem.png'
+import other_circ from'../../shapes/other_circ.png'
 
 const ParallaxPage = () => {
     const parallax = useRef<IParallax>(null!)
     return (
     <div className="parallax">
         <Parallax pages={4} ref={parallax}>
-          <ParallaxLayer
+          {/* <ParallaxLayer
             horizontal={false}
             offset={1}
             speed={1.25}
             factor={1}
             >
-            </ParallaxLayer>
+            </ParallaxLayer> */}
             <ParallaxLayer
               horizontal={true}
               offset={0}
@@ -35,7 +36,7 @@ const ParallaxPage = () => {
             </ParallaxLayer>
             <ParallaxLayer
               offset={0}
-              speed={1}
+              speed={.35}
               factor={2}
               style={{
                 backgroundImage: `url(${light_circ})`,
@@ -64,11 +65,11 @@ const ParallaxPage = () => {
               >
             </ParallaxLayer>
             <ParallaxLayer
-              offset={0}
-              speed={.25}
+              offset={.5}
+              speed={.5}
               factor={2}
               style={{
-                backgroundImage: `url(${dark_circ})`,
+                backgroundImage: `url(${other_circ})`,
                 backgroundSize: 'contain',
               }}
             ></ParallaxLayer>

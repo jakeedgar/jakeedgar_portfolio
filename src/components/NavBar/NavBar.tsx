@@ -40,6 +40,14 @@ export default function ButtonAppBar() {
                 color='inherit'>
                 ABOUT ME
             </Link>
+
+            <Link href='/resume'
+                padding="10px"
+                border="ButtonFace"
+                underline='none'
+                color='inherit'>
+                MY RESUME
+            </Link>
         </Toolbar>
         </AppBar>
     </Box>

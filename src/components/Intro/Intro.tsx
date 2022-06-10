@@ -1,3 +1,5 @@
+import './styles.css'
+
 const aboutMe = "Sholem Aleichem*, I'm Jake.";
 
 const Intro = () => {
