@@ -16,8 +16,39 @@ a:hover {
   color: #F4F5F6;
 }
 
-
 a:active {
   text-decoration: none;
   color: #F4F5F6;
+}
+
+.card {
+  margin-top: 1rem;
+  margin-left: .5rem;
+  padding: 1rem;
+  border: solid 3px black;
+  width: 18rem;
+  float: left;
+}
+
+.card-body {
+  margin-top: -.5rem;
+  margin-bottom: 1rem;
+}
+
+.btn-default {
+  text-align: center;
+  background-color: #443E36;
+  border-radius: 5px;
+  border: 2px transparent #F4F5F6;
+  padding: .2rem;
+  cursor: grab;
+}
+
+.btn {
+  transition-duration: .4s;
+}
+
+.btn:hover {
+  background-color: rgb(58, 2, 2);
+  color: white;
 }

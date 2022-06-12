@@ -1,3 +1,20 @@
-.resume {
-  text-indent: 3rem;
+.btn-default {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  display: inline-block;
+  text-align: center;
+  background-color: #443E36;
+  border-radius: 5px;
+  border: 2px transparent #F4F5F6;
+  padding: .2rem;
+  cursor: grab;
+}
+
+.btn {
+  transition-duration: .4s;
+}
+
+.btn:hover {
+  background-color: rgb(58, 2, 2);
+  color: white;
 }
