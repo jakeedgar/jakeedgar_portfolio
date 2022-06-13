@@ -30,6 +30,10 @@ a:active {
   float: left;
 }
 
+.card:hover {
+  background-color: #6f12129d;
+}
+
 .card-body {
   margin-top: -.5rem;
   margin-bottom: 1rem;

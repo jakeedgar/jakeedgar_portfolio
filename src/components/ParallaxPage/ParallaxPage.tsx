@@ -4,7 +4,6 @@ import { Parallax, ParallaxLayer, IParallax } from '@react-spring/parallax'
 import auto from '../../auto.png';
 import didact from '../../didact.png';
 import light_circ from '../../shapes/light_circ.png'
-import dark_circ from '../../shapes/dark_circ.png'
 import light_small_square from '../../shapes/light_small_squa.png'
 import light_square from '../../shapes/light_squa.png'
 import light_triangle from '../../shapes/light_tri.png'
