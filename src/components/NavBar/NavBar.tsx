@@ -1,6 +1,7 @@
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
+import './styles.css'
 // import Typography from '@mui/material/Typography';
 // import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
@@ -12,7 +13,7 @@ export default function ButtonAppBar() {
     return (
     <Box sx={{ flexGrow: 1 }}>
         <AppBar 
-        position="static" 
+        position="sticky" 
         color="transparent">
         <Toolbar>
             <Link href='/'>
@@ -28,7 +29,7 @@ export default function ButtonAppBar() {
             </Link>
             <Link href='/github'
                 border="ButtonFace"
-                underline='none'
+                underline='hover'
                 color='inherit'>
                 GITHUB
             </Link>
@@ -36,7 +37,7 @@ export default function ButtonAppBar() {
             <Link href='/about'
                 padding="10px"
                 border="ButtonFace"
-                underline='none'
+                underline='hover'
                 color='inherit'>
                 ABOUT ME
             </Link>
@@ -44,7 +45,7 @@ export default function ButtonAppBar() {
             <Link href='/resume'
                 padding="10px"
                 border="ButtonFace"
-                underline='none'
+                underline="hover"
                 color='inherit'>
                 MY RESUME
             </Link>
