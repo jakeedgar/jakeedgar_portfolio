@@ -7,14 +7,12 @@ import { getAnalytics } from "firebase/analytics";
 const { getFirestore, collection, getDocs } = require('firebase/firestore');
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCqaOXfa6ePu-aYvJOz7GSo6t6o_auByLY",
-  authDomain: "my-professional-site-f5981.firebaseapp.com",
-  projectId: "my-professional-site-f5981",
-  databaseURL: "/Projects/SwCGJLigXJVzHXkegpC1",
-  storageBucket: "my-professional-site-f5981.appspot.com",
-  messagingSenderId: "818561684570",
-  appId: "1:818561684570:web:baf4524bd850beeb603463",
-  measurementId: "G-1G8156WBV7"
+  apiKey: "AIzaSyAwD-Jrxk5uV3SnO1ie2vWABp-3BgOKQHI",
+  authDomain: "my-website-5adba.firebaseapp.com",
+  projectId: "my-website-5adba",
+  storageBucket: "my-website-5adba.appspot.com",
+  messagingSenderId: "389354983552",
+  appId: "1:389354983552:web:b3c25959741166bac51665"
 };
 
 firebase.initializeApp(firebaseConfig);
